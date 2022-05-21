@@ -1,0 +1,1 @@
+The Horiseon challenge. For our first challenge was very nerve wrecking. What I had to do was refactor these pages. In other words, condense as, many codes into as little as posibbly. While still having a proper functional working file. Any changes we did on HTML, we would have to adjust on CSS. If need to. for any changes made I would post a comment above the code.
