@@ -23,20 +23,20 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header div {
+/*--replaced div to nav--*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header div ul {
+/*--replaced div to nav--*/
+header nav ul {
     list-style-type: none;
 }
-
-header div ul li {
+/*--replaced div to nav--*/
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -112,14 +112,8 @@ h3 {
     color: #ffffff;
 }
 
-/*-- removed classes to IDs--*/
-#search-engine-optimization img {
-    max-height: 200px;
-}
-#online-reputation-management img  {
-    max-height: 200px;
-}
-#social-media-marketing img {
+/*-- removed 3 classes and added an id. into one--*/
+.info img {
     max-height: 200px;
 }
 
@@ -128,14 +122,14 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/*--removed id from footer--*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/*--removed id from footer--*/
+footer h2 {
     font-size: 20px;
 }
